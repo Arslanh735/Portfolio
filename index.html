@@ -14,7 +14,7 @@
     integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <style>
 
@@ -67,7 +67,7 @@
       </p>
       <p></p>
     </div>
-    <div class="My-card">
+    <div class="My-card" data-aos="zoom-in-left">
       <img src="./Images/My profile.jpg" alt="">
       <div class="card-content">
         <h6>Personal Detail</h6>
@@ -123,7 +123,7 @@
 
   <!-- ADDITIONAL SKILLS -->
 
-  <section class="additional-skills">
+  <section class="additional-skills" data-aos="zoom-in">
     <h2>ADDITIONAL SKILLS</h2>
     <div class="additional-skills-list">
       <img src="./Images/canva log.png" alt="">
@@ -137,19 +137,19 @@
   <section id="Projects">
     <h2>--Projects--</h2>
     <div class="project-container">
-      <div class="project"><a href="https://hiringmine-about-page.vercel.app/">
+      <div class="project" data-aos="flip-left"><a href="https://hiringmine-about-page.vercel.app/">
           <img src="./Images/HiringMine About Page thumbnail.png" alt="">
         </a></div>
-      <div class="project"><a href="https://periodic-table-swart-three.vercel.app/"><img
+      <div class="project" data-aos="flip-left"><a href="https://periodic-table-swart-three.vercel.app/"><img
             src="./Images/Pedriodic table.png" alt=""></a></div>
-      <div class="project"><a href="https://login-and-registration-form-kappa.vercel.app/"><img
+      <div class="project" data-aos="flip-left"><a href="https://login-and-registration-form-kappa.vercel.app/"><img
             src="./Images/login form.png" alt=""></a></div>
-      <div class="project"><a href="https://smit-registration.vercel.app/"><img src="./Images/smit form.png" alt=""></a>
+      <div class="project" data-aos="flip-left"><a href="https://smit-registration.vercel.app/"><img src="./Images/smit form.png" alt=""></a>
       </div>
-      <div class="project"><a href="https://signup-and-login-form-theta.vercel.app/"><img
+      <div class="project" data-aos="flip-left"><a href="https://signup-and-login-form-theta.vercel.app/"><img
             src="./Images/gaming sign in form.png" alt=""></a></div>
-      <div class="project"><a href="https://my-games-ten.vercel.app/"><img src="./Images/Gaming.png" alt=""></a></div>
-      <div class="project">Project Thumbnail</div>
+      <div class="project" data-aos="flip-left"><a href="https://my-games-ten.vercel.app/"><img src="./Images/Gaming.png" alt=""></a></div>
+      <div class="project" data-aos="flip-left">Project Thumbnail</div>
     </div>
   </section>
 
@@ -176,5 +176,8 @@
   </footer>
 
 </body>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </html>
